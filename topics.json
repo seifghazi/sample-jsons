@@ -9,7 +9,7 @@
     "INGESTED.Example.Customer": {
         "allow": {
           "read": ["principle23"],
-          "write": ["principle1234"]
+          "write": ["principle2222"]
         }
       }
   }
