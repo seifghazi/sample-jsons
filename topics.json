@@ -8,8 +8,9 @@
     },
     "INGESTED.Example.Customer": {
         "allow": {
-          "read": ["principle23"],
-          "write": ["principle98"]
+          "read": ["principle23"]
+          "write": ["principle121212"]
+
         }
       }
   }
