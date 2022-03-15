@@ -3,12 +3,10 @@
 		"INGESTED.Example.Account": {
 			"allow": {
 				"read": [
-					"principle1",
-					"principle1"
+					"principle2"
 				],
 				"write": [
-					"principle1",
-					"principle1"
+					"principle2"
 				]
 			}
 		},
@@ -16,12 +14,11 @@
 			"allow": {
 				"read": [
 					"principle2",
-					"principle3",
-					"principle23"
+					"principle3"
 				],
 				"write": [
-					"principle1",
-					"principle8"
+					"principle4",
+					"principle5"
 				]
 			}
 		}
