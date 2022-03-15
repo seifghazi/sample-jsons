@@ -7,11 +7,10 @@
       }
     },
     "INGESTED.Example.Customer": {
-        "allow": {
-          "read": ["principle2"],
-          "write": ["principle121212"]
-
-        }
+      "allow": {
+        "read": ["principle2"],
+        "write": ["principle1", "principle8"]
       }
+    }
   }
 }
