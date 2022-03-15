@@ -1,15 +1,31 @@
 {
 	"topics": {
-	  "INGESTED.Example.Account": {
-		"allow": {
-		  "read": [
-			"principle1"
-		  ],
-		  "write": [
-			"principle2"
-		  ]
+		"INGESTED.Example.Account": {
+			"allow": {
+				"read": [
+					"principle2",
+					"principle1"
+				],
+				"write": [
+					"principle2",
+					"principle2",
+					"principle3"
+				]
+			}
+		},
+		"INGESTED.Example.Customer": {
+			"allow": {
+				"read": [
+					"principle2",
+					"principle3",
+					"principle8"
+				],
+				"write": [
+					"principle4",
+					"principle5",
+					"principle6"
+				]
+			}
 		}
-	  }
 	}
-  }
-  
+}
