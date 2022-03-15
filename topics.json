@@ -1,17 +1,18 @@
 {
-  "topics": {
-    "INGESTED.Example.Account": {
-      "allow": {
-        "read": [
-          "principle1",
-          "principle3",
-		  "principle4",
-          "principle5"
-        ],
-        "write": [
-          "principle2"
-        ]
-      }
-    }
+	"topics": {
+	  "INGESTED.Example.Account": {
+		"allow": {
+		  "read": [
+			"principle1",
+			"principle3",
+			"principle4",
+			"principle5"
+		  ],
+		  "write": [
+			"principle2"
+		  ]
+		}
+	  }
+	}
   }
-}
+  
