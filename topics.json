@@ -5,7 +5,8 @@
         "read": [
           "principle1",
           "principle3",
-		  "principle5"
+		      "principle4",
+          "principle5
         ],
         "write": [
           "principle2"
