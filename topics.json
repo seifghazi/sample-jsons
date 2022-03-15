@@ -4,6 +4,7 @@
       "allow": {
         "read": [
           "principle1"
+          "principle3"
         ],
         "write": [
           "principle2"
