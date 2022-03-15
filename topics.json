@@ -1,11 +1,23 @@
 {
 	"topics": {
-		"INGESTED.Example.Account": {
+		"topicB": {
 			"allow": {
 				"read": [
 					"principle1"
 				],
 				"write": [
+					"principle2"
+				]
+			}
+		},
+		"INGESTED.Example.Account": {
+			"allow": {
+				"read": [
+					"principle1",
+					"principle1"
+				],
+				"write": [
+					"principle2",
 					"principle2"
 				]
 			}
