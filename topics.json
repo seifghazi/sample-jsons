@@ -1,16 +1,29 @@
 {
-  "topics": {
-    "INGESTED.Example.Account": {
-      "allow": {
-        "read": ["principle1"],
-        "write": ["principle1"]
-      }
-    },
-    "INGESTED.Example.Customer": {
-      "allow": {
-        "read": ["principle2"],
-        "write": ["principle1", "principle9"]
-      }
-    }
-  }
+	"topics": {
+		"INGESTED.Example.Account": {
+			"allow": {
+				"read": [
+					"principle1",
+					"principle1"
+				],
+				"write": [
+					"principle1",
+					"principle1"
+				]
+			}
+		},
+		"INGESTED.Example.Customer": {
+			"allow": {
+				"read": [
+					"principle2",
+					"principle3",
+					"principle23"
+				],
+				"write": [
+					"principle1",
+					"principle8"
+				]
+			}
+		}
+	}
 }
