@@ -4,14 +4,13 @@
 		"allow": {
 		  "read": [
 			"principle1",
-			"principle2",
 			"principle3",
 			"principle4",
-			"principle5",
-			"principle 6"
+			"principle5"
 		  ],
 		  "write": [
-			"principle2"
+			"principle2",
+			"principle4"
 		  ]
 		}
 	  }
