@@ -2,7 +2,7 @@ name: Pull Request Action
 on:
   push:
     branches:
-      - release/April
+      - release-April
 
 jobs:
   create-pull-request:
@@ -13,7 +13,7 @@ jobs:
       - name: pull-request
         uses: repo-sync/pull-request@v2
         with:
-          destination_branch: release/May
+          destination_branch: release-May
           github_token: ${{ secrets.GITHUB_TOKEN }}
           pr_label: "feature, automated pr"
           pr_title: "Pulling in April release changes to May"
