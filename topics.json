@@ -3,7 +3,7 @@
     "INGESTED.Example.Account": {
       "allow": {
         "read": [
-          "principle1"
+          "principle1",
           "principle3"
         ],
         "write": [
